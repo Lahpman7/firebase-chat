@@ -1,0 +1,14 @@
+{
+  "name": "realtime-fire-chat",
+  "version": "1.0.0",
+  "description": "Realtime chat app with firebase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mason Lopez",
+  "license": "ISC",
+  "dependencies": {
+    "rand-token": "^0.3.0"
+  }
+}

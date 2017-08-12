@@ -1,0 +1,122 @@
+body {
+    background-color: #7994B6;
+}
+.chatBox {
+    background-color: #3F4F59;
+    padding-top: 7.5px;
+    /*height:487.5px;*/
+
+    height: 687.5px;
+    /*width:415px;*/
+
+    width: 615px;
+    border: 0.5px solid black;
+    border-radius: 7px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.userInfo {
+    height: 10%;
+    /*width:400px;*/
+
+    width: 600px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+    background-color: #E6DEDC;
+    font-family: 'Saira', sans-serif;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.messageBox {
+    font-family: 'Saira', sans-serif;
+    font-size: 14px;
+    background-color: #D2EAF9;
+    /* For scrollable feature */
+
+    overflow-y: auto;
+    /**************************/
+
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 80%;
+    word-wrap: break-word;
+}
+.singleMessage {
+    background-color: #D2D6F9;
+    border: .5px solid #bbbbbb;
+    border-radius: 10px;
+    width: 280px;
+    text-align: left;
+    padding: 14px;
+    position: static;
+    word-wrap: break-word;
+    word-break: break-all;
+    box-shadow: 1px 1px 10px #545353;
+    margin-bottom: -5px;
+}
+.me {
+    float: right;
+    margin-bottom: 10px;
+    position: static;
+    margin-right: 10px;
+}
+.otherUser {
+    float: left;
+    margin-bottom: 10px;
+    position: static;
+    margin-left: 10px;
+    background-color:#f1efda;
+}
+.inputFrame {
+    /*border:1px solid gray;*/
+    /*border-radius: 7px;*/
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    margin-top: 10px;
+    height: 10%;
+}
+.hidden {
+    display: none;
+}
+.fineText {
+    font-size: 12px;
+    font-style: italic;
+}
+#inputBox {
+    border-radius: 7px;
+    width: 75%;
+}
+#send {
+    width: 21%;
+    background-color: #ebeff4;
+    /* Green */
+
+    border: 1.5px solid black;
+    border-radius: 7px;
+    color: black;
+    padding: 3px 15px;
+    text-align: center;
+    font-size: 12px;
+    margin: 2px 2px;
+}
+#login {
+    background-image: url('../assets/myLogin.png');
+    width: 88px;
+    height: 32px;
+}
+#logout {
+    background-image: url('../assets/myLogout.png');
+    width: 88px;
+    height: 32px;
+}
